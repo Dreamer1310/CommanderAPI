@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Dreamer\\.nuget\\packages\\": {}
+    "C:\\Users\\ltsir\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dreamer\\Desktop\\git Repos\\APIprojs\\Commander\\Commander.OAuth\\Commander.OAuth.csproj",
+      "projectUniqueName": "C:\\Users\\ltsir\\Desktop\\documents\\APIs\\CommanderAPI\\Commander.OAuth\\Commander.OAuth.csproj",
       "projectName": "Commander.OAuth",
-      "projectPath": "C:\\Users\\Dreamer\\Desktop\\git Repos\\APIprojs\\Commander\\Commander.OAuth\\Commander.OAuth.csproj",
-      "packagesPath": "C:\\Users\\Dreamer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dreamer\\Desktop\\git Repos\\APIprojs\\Commander\\Commander.OAuth\\obj\\",
+      "projectPath": "C:\\Users\\ltsir\\Desktop\\documents\\APIs\\CommanderAPI\\Commander.OAuth\\Commander.OAuth.csproj",
+      "packagesPath": "C:\\Users\\ltsir\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ltsir\\Desktop\\documents\\APIs\\CommanderAPI\\Commander.OAuth\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dreamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ltsir\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

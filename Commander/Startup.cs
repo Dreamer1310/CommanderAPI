@@ -30,22 +30,26 @@ namespace Commander
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<CommanderDBContext>(opt => opt.UseSqlServer(
-                    Configuration.GetConnectionString("CommanderConnection")
-                ));
+            //services
+            //    .AddDbContext<CommanderDBContext>(opt => opt.UseSqlServer(
+            //        Configuration.GetConnectionString("CommanderConnection")
+            //    ));
 
-            services.AddControllers().AddNewtonsoftJson(s => {
-                s.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
-            });
+            services
+                .AddControllers()
+                .AddNewtonsoftJson(s => {
+                    s.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+                });
 
-            services.AddScoped<ICommanderRepo, SqlCommanderRepo>();
+            services.AddScoped<ICommanderRepo, FirebaseCommanderRepo>();
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Commander", Version = "v1" }); 
-            });
+            services
+                .AddSwaggerGen(c =>
+                {
+                    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Commander", Version = "v1" }); 
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

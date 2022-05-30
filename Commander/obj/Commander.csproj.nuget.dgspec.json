@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dreamer\\Desktop\\git Repos\\APIprojs\\Commander\\Commander\\Commander.csproj": {}
+    "C:\\Users\\ltsir\\Desktop\\documents\\APIs\\CommanderAPI\\Commander\\Commander.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dreamer\\Desktop\\git Repos\\APIprojs\\Commander\\Commander\\Commander.csproj": {
+    "C:\\Users\\ltsir\\Desktop\\documents\\APIs\\CommanderAPI\\Commander\\Commander.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dreamer\\Desktop\\git Repos\\APIprojs\\Commander\\Commander\\Commander.csproj",
+        "projectUniqueName": "C:\\Users\\ltsir\\Desktop\\documents\\APIs\\CommanderAPI\\Commander\\Commander.csproj",
         "projectName": "Commander",
-        "projectPath": "C:\\Users\\Dreamer\\Desktop\\git Repos\\APIprojs\\Commander\\Commander\\Commander.csproj",
-        "packagesPath": "C:\\Users\\Dreamer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dreamer\\Desktop\\git Repos\\APIprojs\\Commander\\Commander\\obj\\",
+        "projectPath": "C:\\Users\\ltsir\\Desktop\\documents\\APIs\\CommanderAPI\\Commander\\Commander.csproj",
+        "packagesPath": "C:\\Users\\ltsir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ltsir\\Desktop\\documents\\APIs\\CommanderAPI\\Commander\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dreamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ltsir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.1.1, )"
+            },
+            "FireSharp": {
+              "target": "Package",
+              "version": "[2.0.4, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -99,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     }
